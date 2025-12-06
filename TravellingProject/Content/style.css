@@ -1,0 +1,77 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background: #212121;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+    margin-top:0;
+}
+
+    .card p {
+        height: 100%;
+        flex: 1;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 2px;
+        transition: all .5s;
+        border: 1px solid #ff5a91;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.box1 {
+    background: #212121 url(https://wallpapercave.com/wp/wp1846066.jpg) center/cover no-repeat;
+    opacity: 0.5;
+}
+
+.box2 {
+    background: #212121 url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    opacity: 0.7;
+}
+
+.box3 {
+    background: #212121 url('https://images.unsplash.com/photo-1554907984-15263bfd63bd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    opacity: 0.7;
+}
+
+
+
+
+.card p:hover {
+    flex: 4;
+}
+
+.card p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: .1em;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.card p:hover span {
+    transform: rotate(0);
+}
