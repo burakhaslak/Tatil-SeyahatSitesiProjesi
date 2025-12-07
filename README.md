@@ -28,6 +28,9 @@ ASP.Net MVC mimarisi kullanılarak bir **Tatil & Seyahat sitesi** oluşturulmuş
 - EF Code First ile veritabanı tabloları migration üzerinden yönetilmiştir.
 
 ## Projeden Resimler
+
+<img width="1920" height="834" alt="image" src="https://github.com/user-attachments/assets/1b7b1791-7874-4b32-80d0-8070d05b238b" />
+
 <img width="1920" height="887" alt="image" src="https://github.com/user-attachments/assets/c514dab6-2a00-49ac-95fe-11a3ab6897e7" />
 
 <img width="1186" height="705" alt="image" src="https://github.com/user-attachments/assets/0ba6d879-eff5-405e-9426-c7dd5f7cbc2d" />
