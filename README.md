@@ -16,7 +16,7 @@ ASP.Net MVC mimarisi kullanılarak bir **Tatil & Seyahat sitesi** oluşturulmuş
 - **Bootstrap** ve hazır **Template entegrasyonu**  
 - **PartialView** kullanımı  
 - **Virtual Property**  
-- `update-database -force` komutu ile migration işlemleri  
+-  update-database -force komutu ile migration işlemleri  
 - **IEnumerable** ile veri listeleme  
 - Blog yazıları için **yorum ekleme, silme, güncelleme** işlemleri  
 - **[HttpGet]** ve **[HttpPost]** attribute’leri ile form işlemleri  
